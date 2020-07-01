@@ -26,7 +26,11 @@ html,body {
 
 #start {
     background-color: teal;
+    color: white;
+    padding: 38px;
 }
+
 #end {
     background-color: whitesmoke;
+    padding: 38px;
 }

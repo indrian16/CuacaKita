@@ -26,16 +26,22 @@
 
             <!-- Left Side -->
             <div class="col-md-4" id="start">
+
+                <h2 id="weather-temp"></h2>
                 <h1 id="city"></h1>
                 <h2 id="weather-main"></h2>
                 <h3 id="weather-desc"></h3>
-                <h3 id="weather-temp"></h3>
+                
             </div>
 
             <!-- Right Side -->
             <div class="col-md" id="end">
-                <input type="text" id="name_city">
-                <button onclick="btnSearch()">City Name</button>
+                <div class="input-group mb-3">
+                    <input id="name_city" type="text" class="form-control" placeholder="Input a city name" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button onclick="btnSearch()" class="btn btn-danger" type="button">Search</button>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>

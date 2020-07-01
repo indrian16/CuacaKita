@@ -11,5 +11,5 @@ function updateView(data) {
     cityName.innerText = data.name
     wMain.innerText = weather.main
     wDesc.innerText = weather.description
-    mainTemp.innerText = `Temperature: ${main.temp}`
+    mainTemp.innerHTML = `<h2>${main.temp} &deg;</h2>`
 }
