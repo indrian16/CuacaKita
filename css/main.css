@@ -34,3 +34,8 @@ html,body {
     background-color: whitesmoke;
     padding: 38px;
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+}

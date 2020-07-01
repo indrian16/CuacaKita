@@ -12,4 +12,9 @@ function updateView(data) {
     wMain.innerText = weather.main
     wDesc.innerText = weather.description
     mainTemp.innerHTML = `<h2>${main.temp} &deg;</h2>`
+
+    // Maps
+    const coord = data.coord
+    console.log(`Coord: ${coord.lat}, ${coord.lon}`)
+    updateMap(coord.lat, coord.lon)
 }

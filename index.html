@@ -41,12 +41,19 @@
                     <div class="input-group-append">
                       <button onclick="btnSearch()" class="btn btn-danger" type="button">Search</button>
                     </div>
+
                   </div>
+                  <h3>Location</h3>
+                  <div id="map"></div>
             </div>
         </div>
     </div>
 
     <!-- Run Main App -->
     <script src='js/main.js'></script>
+    <!-- Run Google with Async -->
+    <script src="js/maps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8pYTSVErkuqSxT0Hw_eywEwXDYbWh21M&callback=updateMap"></script>
+
 </body>
 </html>
