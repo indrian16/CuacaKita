@@ -1,4 +1,5 @@
 function updateView(data) {
+    
     console.log(data)
 
     // Weather

@@ -5,21 +5,42 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Cuaca Kita</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Dependency -->
+    <!-- Ajax -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src='view.js'></script>
-    <script src='service.js'></script>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- Local Module -->
+    <script src='js/service.js'></script>
+    <script src='js/view.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    
 </head>
 <body>
 
-    <input type="text" id="name_city">
-    <button onclick="btnSearch()">City Name</button>
-    
-    <h1 id="city"></h1>
-    <h2 id="weather-main"></h2>
-    <h3 id="weather-desc"></h3>
-    <h3 id="weather-temp"></h3>
+    <div class="container-fluid h-100">
+        <div class="row justify-content-center h-100">
 
-    <script src='main.js'></script>
+            <!-- Left Side -->
+            <div class="col-sm-4" id="start">
+                <h1 id="city"></h1>
+                <h2 id="weather-main"></h2>
+                <h3 id="weather-desc"></h3>
+                <h3 id="weather-temp"></h3>
+            </div>
+
+            <!-- Right Side -->
+            <div class="col-sm" id="end">
+                <input type="text" id="name_city">
+                <button onclick="btnSearch()">City Name</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Run Main App -->
+    <script src='js/main.js'></script>
 </body>
 </html>
