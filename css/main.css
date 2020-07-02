@@ -31,8 +31,13 @@ html,body {
 }
 
 #end {
-    background-color: whitesmoke;
-    padding: 38px;
+    
+    width: 100%;
+    /* padding: 38px; */
+}
+
+.navbar {
+    
 }
 
 #map {
