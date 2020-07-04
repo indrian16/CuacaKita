@@ -24,12 +24,12 @@ html,body {
     font-family: 'Bitter', serif;
 }
 
-
 #start {
-    background: url('../images/start_bg.png');
+    background: url('../images/condition/clear_sky_d.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: wheat;
+    color: white;
+    text-shadow: 2px 2px 16px black;
 }
 #start-content {
     padding: 16px;
