@@ -21,26 +21,49 @@
 
 html,body {
     height: 100%;
+    font-family: 'Bitter', serif;
 }
 
 
 #start {
-    background-color: teal;
-    color: white;
-    padding: 38px;
+    background: url('../images/start_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+}
+#start-content {
+    padding: 16px;
+    margin: 16px;
+}
+
+
+hr {
+    background-color: wheat;
+    border-style: solid none;
+    border-width: 1px;
+    align-content: flex-start;
+    max-width: 100px;
+    margin: 0px;
 }
 
 #end {
-    
     width: 100%;
-    /* padding: 38px; */
+    padding: 0;
 }
 
-.navbar {
-    
+#end-content {
+    padding: 16px;
+    margin: 16px;
 }
 
 #map {
-    height: 400px;
+    height: 300px;
     width: 100%;
+}
+
+img {
+    width: 100px;
+}
+p {
+    margin-top: 16px;
 }

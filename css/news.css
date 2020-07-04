@@ -1,0 +1,19 @@
+html,body {
+    height: 100%;
+    font-family: 'Bitter', serif;
+}
+
+.container {
+    margin: 16px;
+    padding: 16px;
+}
+
+img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin-top: 16px;
+}
