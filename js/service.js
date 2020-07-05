@@ -12,6 +12,7 @@ function getWeather(inputName) {
         success: (data) => updateView(data),
         beforeSend: () => {
             cityName.innerText = "Loading..."
-        }
+        },
+        error: (xhr, ajaxOptions, thrownError) => errorView(xhr, ajaxOptions, thrownError)
     })
 }

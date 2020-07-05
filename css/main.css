@@ -25,7 +25,7 @@ html,body {
 }
 
 #start {
-    background: url('../images/condition/clear_sky_d.jpg');
+    background: url('../images/start_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

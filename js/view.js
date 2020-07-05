@@ -88,3 +88,8 @@ function updateBackground(condition) {
     // Change BG
     startBG.style.background = conditionMap[condition]
 }
+
+function errorView(xhr, ajaxOptions, thrownError) {
+    cityName.innerText = "Please check your connection... :)"
+    startBG.style.background = 'url(images/start_bg.jpg)'
+}
