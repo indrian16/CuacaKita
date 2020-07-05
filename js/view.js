@@ -50,7 +50,7 @@ function getCurrentTime() {
     const yearStr = date.getFullYear()
 
     // Create Time String
-    const hourStr = date.getUTCHours()
+    const hourStr = date.getHours()
     const minuteStr = date.getMinutes()
     const secStr = date.getSeconds()
 
